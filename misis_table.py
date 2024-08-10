@@ -1,6 +1,5 @@
 import requests
 from bs4 import BeautifulSoup
-import pandas
 
 def load_page(url):
     page = requests.get(url)
